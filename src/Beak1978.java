@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Beak1978 { //소수 찾기
+public class Beak1978 {
 
     public static void main(String[] args) throws IOException {
 
