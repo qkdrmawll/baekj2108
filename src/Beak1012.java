@@ -55,13 +55,13 @@ public class Beak1012 { //유기농 배추
             nowX = x + dx[i];
             nowY = y + dy[i];
 
-            if (RangrCheck() && visit[nowX][nowY]==false && map[nowX][nowY]==1){
+            if (RangeCheck() && visit[nowX][nowY]==false && map[nowX][nowY]==1){
                 DFS(nowX,nowY);
             }
         }
     }
 
-    private static boolean RangrCheck() {
+    private static boolean RangeCheck() {
         return (nowX<N && nowY>=0 && nowY<M && nowX>=0);
     }
 }
