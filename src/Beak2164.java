@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Beak2164 {
+public class Beak2164 { //카드2
     public static void main(String[] args) throws IOException {
         Queue<Integer> queue = new LinkedList<>();
         Scanner scanner = new Scanner(System.in);
@@ -12,7 +12,6 @@ public class Beak2164 {
         for(int i = 0;i<N;i++){
             queue.offer(i+1);
         }
-
         while(queue.size()>1) {
             queue.poll();
             queue.offer(queue.poll());

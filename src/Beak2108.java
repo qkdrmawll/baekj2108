@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Beak2108 {
+public class Beak2108 { //통계학
 
     public static void main(String args[]) throws IOException {
 

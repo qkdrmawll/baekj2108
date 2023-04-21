@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Beak2231 {
+public class Beak2231 { //분해합
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();

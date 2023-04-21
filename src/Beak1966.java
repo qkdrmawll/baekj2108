@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Beak1966 {
+public class Beak1966 { //프린터 큐
 
     public static void main(String[] args) throws IOException {
 
@@ -15,7 +15,6 @@ public class Beak1966 {
 
         int N ;
         int M ;
-
 
 
         for(int i=0;i<numOfTestcase;i++){
@@ -43,7 +42,7 @@ public class Beak1966 {
                         break;
                     }
                 }
-                if (flag){
+                if (flag){ //중요도가 가장 높아 빠져나오는 경우
                     count++;
                     if (front[0]==M) break;
                 }else {

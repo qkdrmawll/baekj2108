@@ -20,15 +20,9 @@ public class Beak2839 { //설탕배달
             else {
                 N -=3;
                 count++;
-               }
+            }
         }
         System.out.println(result);
-
-
-
-
-
-
 
     }
 }
