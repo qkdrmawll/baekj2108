@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Beak1003 { //피보나치 함수
+public class Baek1003 { //피보나치 함수
 
     static Integer[][] arr = new Integer[41][2];
 
