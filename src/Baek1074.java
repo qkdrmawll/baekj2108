@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Beak1074 { //Z
+public class Baek1074 { //Z
     static int count = 0;
 
     public static void main(String[] args) throws IOException {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Beak1107 {  //리모컨
+public class Baek1107 {  //리모컨
     public static void main(String[] args)  {
         Scanner scan = new Scanner(System.in);
 

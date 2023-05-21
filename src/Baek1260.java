@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Beak1260 { //DFS와 BFS
+public class Baek1260 { //DFS와 BFS
 
     static StringBuilder sb = new StringBuilder();
     static boolean[] check;

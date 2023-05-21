@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Beak1012 { //유기농 배추
+public class Baek1012 { //유기농 배추
 
     static int dx[] = {0,0,-1,1};
     static int dy[] = {-1,1,0,0};
