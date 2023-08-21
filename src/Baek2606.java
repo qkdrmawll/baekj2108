@@ -29,7 +29,6 @@ public class Baek2606 { //바이러스
     static void dfs(int start) {
         visited[start] = true;
         count++;
-        System.out.println(start);
         for (int i=1;i<=node;i++) {
             if (net[start][i]==1 && !visited[i]) dfs(i);
         }
