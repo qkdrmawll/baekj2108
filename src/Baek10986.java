@@ -28,11 +28,11 @@ public class Baek10986 {// 나머지 합
         S[j]%M = S[i]%M인 경우를 찾는다
          */
         for (int i=0;i<n;i++) {
-            int remainder = (int) (s[i] % m); //구간의 개수를 구하는 것이기 때문에 인덱스는 필요없고 개수만 count한다
+            int remainder = (int) (s[i] % m); //구간의 개수를 구하는 것이기 때문에 인덱스는 필요없어서 따로 배열을 만들지 않음
             if (remainder == 0) {
                 result++;
             }
-            count[remainder]++;
+            count[remainder]++; // 나머지가 같은 인덱스의 개수 카운팅하기
 
         }
         for (int i=0;i<m;i++) {
