@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class Baek11003 {//최솟값 찾기
+    //덱을 통한 정렬 효과
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
